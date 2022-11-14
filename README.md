@@ -42,11 +42,11 @@ For now, we provide a jupyter notebook to visualise the dataset
 We have largely simplified the script so that to train and test the model. If you wish to retrain or test the model, all you need to do is just executing the script below. The pretrained weight .ckpt file is already located in `pretrained_models`
 
 ```
-bash script/run_training.sh
+bash exp_script/run_training.sh
 ```
 
 ```
-bash script/run_testing.sh
+bash exp_script/run_testing.sh
 ```
 
 ## Result
